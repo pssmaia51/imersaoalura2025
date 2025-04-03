@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabo de Guerra - Escolha Seu Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <img src="https://tm.ibxk.com.br/2021/03/24/jogo-medieval-24114320115093.jpg?ims=fit-in/800x500" 
+             alt="Logo do Jogo">
+    </div>
+
+    <!-- Título -->
+    <div class="titulo">
+        <h2>Força ou Queda - Cabo de Guerra</h2>
+    </div>
+
+    <!-- Container do Jogo -->
+    <main class="conteudo-jogo">
+        <div id="container">
+            <h2>Escolha 5 jogadores para seu time:</h2>
+
+            <!-- Campos de entrada para os 5 jogadores -->
+            <div id="entrada-jogadores">
+                <input type="text" id="jogador1" placeholder="Jogador 1">
+                <input type="text" id="jogador2" placeholder="Jogador 2">
+                <input type="text" id="jogador3" placeholder="Jogador 3">
+                <input type="text" id="jogador4" placeholder="Jogador 4">
+                <input type="text" id="jogador5" placeholder="Jogador 5">
+            </div>
+
+            <!-- Botão para iniciar a disputa -->
+            <button onclick="iniciarJogo()">Montar Time e Jogar!</button>
+
+            <!-- Resultados -->
+            <p id="informacoesJogador" class="resultado"></p>
+            <p id="informacoesComputador" class="resultado"></p>
+            <button id="resultadoBtn" style="display:none;" onclick="verResultado()">Ver Resultado</button>
+            <h1 id="resultadoFinal" class="resultado"></h1>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>Alura - Imersão DEV - 2025</footer>
+
+    <!-- Importação do script -->
+    <script src="script.js"></script>
+</body>
+</html>

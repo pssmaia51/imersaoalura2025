@@ -1,0 +1,103 @@
+/* Plano de fundo com imagem temática */
+body {
+    background: url("https://tm.ibxk.com.br/2021/03/24/jogo-medieval-24114320115093.jpg?ims=fit-in/800x500")
+      no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Gabarito", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+  
+  /* Logo no topo direito */
+  .logo {
+    text-align: end;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 200px;
+    max-width: 100%;
+  }
+  
+  /* Título principal */
+  .titulo {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .titulo h2 {
+    font-size: 2.5em;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  /* Caixa principal do jogo */
+  .conteudo-jogo {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ff1b7b;
+    text-align: center;
+  }
+  
+  .conteudo-jogo:hover {
+    box-shadow: 0 0 15px #1abc9c;
+  }
+  
+  /* Títulos e parágrafos */
+  h2,
+  p,
+  .resultado {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  /* Botão padrão */
+  button {
+    padding: 12px 24px;
+    margin: 15px 5px;
+    border: none;
+    background: #ff1b7b;
+    color: white;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: #1abc9c;
+    transform: scale(1.05);
+  }
+  
+  /* Resultado final em destaque */
+  #resultadoFinal {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #00ffcc;
+    text-shadow: 1px 1px 4px #000;
+  }
+
+  /* Estilização dos inputs de texto */
+input[type="text"] {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 0 5px #ff1b7b;
+  }
+  
+  input[type="text"]:focus {
+    box-shadow: 0 0 10px #1abc9c;
+  }
+  
