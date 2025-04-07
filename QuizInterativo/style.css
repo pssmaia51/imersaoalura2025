@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://pt.quizur.com/_image?href=https%3A%2F%2Fimg.quizur.com%2Ff%2Fimg6241aa6b6ac163.18596005.jpeg%3FlastEdited%3D1648470640&w=600&h=600&f=webp') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+.quiz-logo {
+  max-width: 200px;
+  display: block;
+  margin: 20px auto;
+  z-index: 2;
+  position: relative;
+}
+
+.quiz-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  position: relative;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ffffff30;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  background-color: #76e6e6;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+.timer {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.answers button {
+  background-color: #ffffff10;
+  border: 2px solid #fff;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.answers button:hover {
+  background-color: #ffffff30;
+}
+
+.result, .score {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#restart {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#gerarIa {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  background: #00aaff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+  top: 5cm;
+}
+
+#gerarIa:hover {
+  background: #0088cc;
+}
